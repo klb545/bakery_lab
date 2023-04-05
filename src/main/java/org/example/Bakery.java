@@ -1,4 +1,3 @@
-//NEED TO DO THIS PROPERLY AND BAKERY TEST
 package org.example;
 
 import interfaces.ISell;
@@ -49,20 +48,6 @@ public class Bakery {
         }
         return totalProfit;
     }
-
-//    //    TODO: test addTieredCakeToStock
-//    public void addItemToStock(ISell item){
-//        stock.add(item);
-//        item.setStockCountOfItem(item.getStockCountOfItem() + 1);
-//    }
-//
-//    //    OVERLOAD
-//    public void addTieredCakeToStock(TieredCake tieredCake, int numberOfTieredCakeItem){
-//        if(!stock.contains(tieredCake)){
-//            stock.add(tieredCake);
-//        }
-//        tieredCake.setStockCountOfItem(tieredCake.getStockCountOfItem() + numberOfTieredCakeItem);
-//    }
-
+    
 
 }
